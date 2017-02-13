@@ -1,0 +1,13 @@
+div
+{
+    width: 400px;
+    height: 400px;
+
+    border-width: 20px;
+    border-style: groove;
+    border-radius: 25%;
+    background-color: red;
+    background-image: url('dog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

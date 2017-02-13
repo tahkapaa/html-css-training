@@ -1,0 +1,13 @@
+div
+{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+
+    border: 10px dashed red;
+}
+
+.second
+{
+    box-sizing: border-box;
+}
