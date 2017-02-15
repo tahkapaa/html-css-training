@@ -1,0 +1,41 @@
+body
+{
+    background-color: darkblue;
+}
+
+body > div
+{
+    width: 600px;
+    margin: 0 auto;
+
+    border: 5px solid black;
+    background-color: green;
+}
+
+body > div > h1
+{
+    font-size: x-large;
+
+    margin: 10px;
+
+    color: blue;
+}
+
+body > div > h2
+{
+    font-size: x-large;
+
+    margin: 10px;
+
+    color: red;
+}
+
+body > div > img
+{
+    display: block;
+
+    margin: 10 auto;
+
+    border: 10px groove orange;
+    border-radius: 100%;
+}
