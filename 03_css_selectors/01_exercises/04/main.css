@@ -1,0 +1,20 @@
+a:active
+{
+    border: 5px dashed green;
+}
+
+a:visited
+{
+    border: 5px dashed blue;
+}
+
+a:hover
+{
+    color: purple;
+    border: 5px dashed red;
+}
+
+a:active
+{
+    border: 5px dashed orange;
+}
