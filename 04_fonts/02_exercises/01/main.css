@@ -1,0 +1,58 @@
+.serif
+{
+    font-family: serif;
+}
+
+.sans-serif
+{
+    font-family: sans-serif;
+}
+
+.gorditas-bold
+{
+    font-family: 'Gorditas', cursive;
+    font-weight: 700;
+}
+
+.gorditas
+{
+    font-family: 'Gorditas', cursive;
+    font-weight: 400;
+}
+
+.transform
+{
+    font-style: italic;
+
+    text-transform: uppercase;
+}
+
+.spacing
+{
+    letter-spacing: 1.5rem;
+}
+
+.shadow
+{
+    text-shadow: 5px, 5px, 10px, red;
+}
+
+.no-underline
+{
+    text-decoration: none;
+}
+
+.no-underline:hover
+{
+    text-decoration: underline;
+}
+
+.linethrough
+{
+    text-decoration: line-through;
+}
+
+.intend
+{
+    text-indent: 1rem;
+}
