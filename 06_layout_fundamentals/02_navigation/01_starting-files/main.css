@@ -1,0 +1,36 @@
+html
+{
+    font-size: 2rem;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    display: inline-block;
+
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+a
+{
+    display: inline-block;
+
+    text-decoration: none;
+
+    border-radius: 50px;
+}
+
+a:hover
+{
+    background-color: green;
+}
+
+a:active
+{
+    background-color: red;
+}
