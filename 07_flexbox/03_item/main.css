@@ -1,0 +1,25 @@
+*
+{
+    border: dashed black;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div
+{
+    width: auto;
+    margin: 5px;
+
+    border: dashed red;
+
+    flex-shrink: 1;
+}
+
+.double
+{
+    flex-shrink: 10;
+}

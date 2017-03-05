@@ -1,0 +1,24 @@
+*
+{
+    border: dashed black;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div
+{
+    margin: 5px;
+
+    border: dashed red;
+
+    flex-grow: 1;
+}
+
+.double
+{
+    flex-grow: 2;
+}

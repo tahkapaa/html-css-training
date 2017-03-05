@@ -1,0 +1,14 @@
+body
+{
+    display: flex;
+
+    width: 400px;
+
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+}
+
+div
+{
+    margin: 5px;
+}

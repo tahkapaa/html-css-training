@@ -1,0 +1,28 @@
+*
+{
+    border: dashed black;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+
+    width: 400px;
+
+    flex-wrap: wrap;
+}
+
+div
+{
+    margin: 5px;
+
+    border: dashed red;
+
+    flex: 1 1 1rem;
+}
+
+.double
+{
+    align-self: flex-end;
+}

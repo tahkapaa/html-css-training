@@ -1,0 +1,13 @@
+body
+{
+    display: flex;
+
+    width: 200px;
+
+    flex-flow: row-reverse wrap;
+}
+
+div
+{
+    margin: 5px;
+}
