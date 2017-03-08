@@ -1,8 +1,15 @@
 div
 {
     width: 49%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
 
     background-image: url('https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     order: 1;
 }
