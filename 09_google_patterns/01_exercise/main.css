@@ -1,0 +1,14 @@
+body
+{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+div
+{
+    width: 100%;
+
+    border: solid black 1px;
+    background-color: lightblue;
+}
