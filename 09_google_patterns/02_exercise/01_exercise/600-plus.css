@@ -1,0 +1,10 @@
+ul
+{
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+li
+{
+    padding-right: 10px;
+}
