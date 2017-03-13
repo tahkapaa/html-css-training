@@ -1,0 +1,14 @@
+nav
+{
+    width: 30%;
+}
+
+main
+{
+    width: 70%;
+}
+
+ul
+{
+    justify-content: flex-start;
+}
