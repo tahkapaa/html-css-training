@@ -1,0 +1,56 @@
+body,
+header,
+article,
+aside,
+footer,
+p
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    order: 1;
+}
+
+body
+{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header
+{
+    width: 100%;
+
+    background: #e55;
+}
+
+article
+{
+    width: 100%;
+
+    background: #2b8ee5;
+}
+
+aside
+{
+    width: 100%;
+}
+
+aside.first
+{
+    background: #e4f42c;
+}
+
+aside.second
+{
+    background: #e22be5;
+}
+
+footer
+{
+    width: 100%;
+
+    background: #2be59a;
+}
