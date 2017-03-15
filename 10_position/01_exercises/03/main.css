@@ -1,0 +1,43 @@
+html,
+body,
+div
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+body
+{
+    position: relative;
+
+    width: 50%;
+
+    border: 2px solid;
+}
+
+div
+{
+    margin: 10px;
+
+    border: 2px solid #c11;
+}
+
+body > div:first-child
+{
+    width: 400px;
+    height: 400px;
+
+    background: #e22;
+}
+
+body > div:last-child
+{
+    position: absolute;
+    top: 0;
+    top: 200px;
+    right: 30px;
+
+    background: #f0a;
+}
