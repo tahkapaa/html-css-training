@@ -1,0 +1,31 @@
+div,
+body,
+html
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+div
+{
+    float: right;
+
+    width: 200px;
+    height: 400px;
+
+    border: 2px solid;
+    background: blue;
+}
+
+nav
+{
+    overflow: auto;
+
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid;
+    background: red;
+}
