@@ -1,0 +1,32 @@
+html,
+body,
+div
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+body
+{
+    border: 2px solid;
+}
+
+nav
+{
+    float: left;
+}
+
+main
+{
+    float: right;
+
+    width: 80%;
+    padding-top: 20px;
+}
+
+li
+{
+    list-style: none;
+}
