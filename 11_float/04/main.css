@@ -1,6 +1,6 @@
-html,
+div,
 body,
-div
+html
 {
     margin: 0;
     padding: 0;
@@ -8,25 +8,33 @@ div
     border: 0;
 }
 
-body
+nav > div
 {
+    float: right;
+
+    width: 200px;
+    height: 400px;
+
     border: 2px solid;
+    background: blue;
 }
 
 nav
 {
-    float: left;
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid;
+    background: red;
 }
 
-main
+body > div
 {
-    float: right;
+    clear: both;
 
-    width: 80%;
-    padding-top: 20px;
-}
+    width: 400px;
+    height: 400px;
 
-li
-{
-    list-style: none;
+    border: 2px solid;
+    background: orange;
 }
