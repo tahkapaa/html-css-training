@@ -74,6 +74,11 @@ svg
     fill: #eee;
 }
 
+svg:hover
+{
+    fill: #1485cc;
+}
+
 section#idx-atf
 {
     display: flex;
