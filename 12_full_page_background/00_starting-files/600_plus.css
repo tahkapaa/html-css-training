@@ -3,6 +3,11 @@ section#idx-atf
     background-image: url('img/background-photo.jpg');
 }
 
+nav.mobile-menu a svg
+{
+    display: none;
+}
+
 header
 {
     justify-content: space-between;
@@ -31,7 +36,7 @@ div.logo h1
     font-size: 1rem;
 }
 
-svg
+section#idx-atf svg
 {
     display: block;
 

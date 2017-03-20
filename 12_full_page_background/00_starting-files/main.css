@@ -66,7 +66,7 @@ a:hover
     background-color: rgba(0,0,0,.8);
 }
 
-svg
+section#idx-atf svg
 {
     display: none;
 }
