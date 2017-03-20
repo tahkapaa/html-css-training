@@ -3,7 +3,7 @@ section#idx-atf
     background-image: url('img/background-photo.jpg');
 }
 
-nav.mobile-menu a svg
+nav#mobile-menu
 {
     display: none;
 }
