@@ -18,31 +18,33 @@ section.atf
     height: 100vh;
 
     justify-content: center;
+    align-items: center;
 }
 
 nav
 {
     display: flex;
 
+    width: 80%;
+
+    border-bottom: 2px solid steelblue;
+
     align-items: center;
+    justify-content: space-between;
 }
 
 nav > div
 {
-    font-size: 3rem;
+    font-size: 2rem;
 
-    margin-bottom: .2rem;
     padding: .5rem 2rem;
 
-    border-bottom: .1rem solid steelblue;
+    border-bottom: .1rem solid transparent;
 }
 
 nav > div:hover
 {
-    margin-bottom: 0;
-    padding: .3rem 2rem;
-
     cursor: pointer;
 
-    border-bottom: .3rem solid royalblue;
+    border-bottom: .1rem solid royalblue;
 }
