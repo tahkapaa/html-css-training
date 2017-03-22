@@ -1,0 +1,48 @@
+html,
+body,
+section,
+div
+{
+    font-size: 20px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+section.atf
+{
+    display: flex;
+
+    height: 100vh;
+
+    justify-content: center;
+}
+
+nav
+{
+    display: flex;
+
+    align-items: center;
+}
+
+nav > div
+{
+    font-size: 3rem;
+
+    margin-bottom: .2rem;
+    padding: .5rem 2rem;
+
+    border-bottom: .1rem solid steelblue;
+}
+
+nav > div:hover
+{
+    margin-bottom: 0;
+    padding: .3rem 2rem;
+
+    cursor: pointer;
+
+    border-bottom: .3rem solid royalblue;
+}
