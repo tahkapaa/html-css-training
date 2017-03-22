@@ -3,7 +3,7 @@ body,
 div
 {
     font-family: sans-serif;
-    font-size: 96px;
+    font-size: 12vh;
     font-weight: 700;
 
     box-sizing: border-box;
@@ -17,36 +17,48 @@ body
 {
     display: flex;
 
-    height: 100vh;
+    justify-content: center;
+}
 
-    text-align: center;
+div.atf
+{
+    display: flex;
+
+    width: 80%;
+    height: 100vh;
 
     justify-content: center;
     align-items: center;
 }
 
-
-div
+div > div
 {
-    width: 400px;
+    display: flex;
 
     color: #222;
     border: 3px solid cadetblue;
+
+    justify-content: center;
+    flex-grow: 2;
+    flex-basis: 2;
 }
 
 div.minus,
 div.plus
 {
-    width: 150px;
-
     color: #eee;
     border: 3px solid cadetblue;
     background-color: lightsteelblue;
+
+    flex-grow: 1;
+    flex-basis: 1;
 }
 
 div.minus:hover,
 div.plus:hover
 {
+    cursor: crosshair;
+
     background-color: steelblue;
 }
 
