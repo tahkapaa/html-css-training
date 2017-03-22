@@ -17,9 +17,9 @@ body
 {
     display: flex;
 
-    text-align: center;
+    height: 100vh;
 
-    border: 2px solid hotpink;
+    text-align: center;
 
     justify-content: center;
     align-items: center;
@@ -30,7 +30,8 @@ div
 {
     width: 400px;
 
-    border: 2px solid grey;
+    color: #222;
+    border: 3px solid cadetblue;
 }
 
 div.minus,
@@ -39,7 +40,7 @@ div.plus
     width: 150px;
 
     color: #eee;
-    border: 2px solid cadetblue;
+    border: 3px solid cadetblue;
     background-color: lightsteelblue;
 }
 
