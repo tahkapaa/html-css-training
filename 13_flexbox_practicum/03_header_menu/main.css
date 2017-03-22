@@ -1,0 +1,88 @@
+html,
+body,
+header,
+section,
+div,
+svg,
+a
+{
+    font-size: 3vw;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+
+    color: #eee;
+    border: 0;
+
+    fill: currentColor;
+}
+
+header
+{
+    position: fixed;
+
+    display: flex;
+
+    width: 100%;
+
+    background-color: grey;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav
+{
+    display: flex;
+
+    text-align: center;
+
+    align-items: center;
+}
+
+nav > a
+{
+    width: 2.8rem;
+    padding: .3rem 0;
+}
+
+
+a:hover,
+nav > svg:hover
+{
+    background-color: rgba(0,0,0,.6);
+}
+
+nav > svg
+{
+    width: 2.8rem;
+    height: 1.8rem;
+}
+
+section.atf
+{
+    font-size: 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    text-align: center;
+
+    color: grey;
+
+    justify-content: center;
+    align-items: center;
+}
+
+section.atf svg
+{
+    width: 8rem;
+    height: 8rem;
+
+    color: hotpink;
+}
