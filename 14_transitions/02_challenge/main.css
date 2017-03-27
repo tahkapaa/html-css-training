@@ -1,0 +1,47 @@
+html,
+body
+{
+    font-size: 20px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+body
+{
+    font-family: serif;
+    font-weight: bold;
+
+    display: flex;
+
+    height: 100vh;
+
+    animation-name: fontifier;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-transform: uppercase;
+
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fontifier
+{
+    0%
+    {
+        font-size: 1rem;
+
+        color: black;
+    }
+    100%
+    {
+        font-size: 20rem;
+
+        color: red;
+    }
+}
