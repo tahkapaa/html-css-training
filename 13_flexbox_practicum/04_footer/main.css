@@ -1,0 +1,100 @@
+html,
+body,
+div,
+section,
+footer,
+button
+{
+    font-size: 16px;
+    font-size: inherit;
+    font-weight: bold;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    color: #99a;
+    border: 0;
+    background-color: white;
+}
+
+body
+{
+    display: flex;
+
+    justify-content: center;
+}
+
+section.atf
+{
+    font-size: 4rem;
+    font-weight: bold;
+
+    display: flex;
+
+    width: 90%;
+    height: 100vh;
+    padding-top: 15vh;
+
+    text-align: center;
+
+    align-items: flex-start;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 10px;
+
+    display: flex;
+
+    width: 90%;
+
+    border-top: 2px solid #99a;
+
+    justify-content: space-between;
+}
+
+footer div
+{
+    font-size: 2.2rem;
+    font-weight: bold;
+
+    display: flex;
+
+    padding: 1rem 1.5rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div.spinner
+{
+    font-weight: normal;
+
+    margin-left: 3rem;
+}
+
+div.btn-group
+{
+    margin-right: 1rem;
+}
+
+button
+{
+    padding: 1rem 1.5rem;
+
+    transition-duration: 400ms;
+    transition-property: all;
+
+    color: skyblue;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    color: #eee;
+    border-color: lightsteelblue;
+    background-color: skyblue;
+}
