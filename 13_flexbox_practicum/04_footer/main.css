@@ -72,12 +72,12 @@ div.spinner
 {
     font-weight: normal;
 
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
-div.btn-group
+div.spinner > i
 {
-    margin-right: 1rem;
+    margin-right: .5rem;
 }
 
 button
