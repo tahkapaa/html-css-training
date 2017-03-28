@@ -18,6 +18,12 @@ button
     background-color: white;
 }
 
+svg
+{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 body
 {
     display: flex;
@@ -75,9 +81,32 @@ div.spinner
     margin-left: 1rem;
 }
 
-div.spinner > i
+div.spinner > svg
 {
     margin-right: .5rem;
+
+    transform: rotateZ(45deg);
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    /*animation-timing-function: steps(8);*/
+    animation-iteration-count: infinite;
+
+    border: 2px solid white;
+
+    fill: #99a;
+}
+
+@keyframes spin
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(359deg);
+    }
 }
 
 button
