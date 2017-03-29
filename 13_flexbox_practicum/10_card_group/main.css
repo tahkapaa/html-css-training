@@ -1,0 +1,84 @@
+html,
+body,
+div,
+i
+{
+    font-size: 20px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+html
+{
+    font-family: Helvetica;
+
+    color: steelblue;
+}
+
+div.atf
+{
+    display: flex;
+
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.card
+{
+    display: flex;
+    flex-direction: column;
+
+    height: 240px;
+
+    transition-duration: 400ms;
+    transition-property: all;
+    text-align: center;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px black;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.card:hover
+{
+    cursor: pointer;
+
+    box-shadow: 0 5px 10px black;
+}
+
+div.card-row
+{
+    width: 180px;
+    padding: 10px 25px;
+}
+
+div.card-row:first-child
+{
+    padding-top: 20px;
+    padding-bottom: 0;
+
+    color: lightsteelblue;
+}
+
+div.card-row:last-child
+{
+    font-weight: bold;
+
+    width: 100%;
+
+    border-top: 1px solid grey;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ddd;
+    background-clip: border-box;
+}
