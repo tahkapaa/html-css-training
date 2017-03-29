@@ -1,0 +1,30 @@
+body,
+html,
+div,
+svg
+{
+    font-size: 20px;
+
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+div.atf
+{
+    display: flex;
+
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+svg
+{
+    width: 33vh;
+    height: 33vh;
+
+    fill: lightsteelblue;
+}
