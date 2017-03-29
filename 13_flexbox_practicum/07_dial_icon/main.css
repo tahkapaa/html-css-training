@@ -26,5 +26,23 @@ svg
     width: 33vh;
     height: 33vh;
 
+    transition-duration: 400ms;
+    transition-property: all;
+
+    border: 1px solid grey;
+    border-style: ridge;
+    border-radius: 100%;
+    background-color: #397822;
+    box-shadow: 0 10px 15px grey;
+
     fill: lightsteelblue;
+}
+
+svg:hover
+{
+    cursor: pointer;
+
+    background-color: lightsteelblue;
+    background-color: #134015;
+    box-shadow: unset;
 }
