@@ -1,0 +1,64 @@
+html,
+body,
+div,
+p
+{
+    font-size: 20px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    color: steelblue;
+}
+
+body
+{
+    display: flex;
+
+    justify-content: center;
+}
+
+div.atf
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 100vh;
+
+    justify-content: center;
+}
+
+div.centered
+{
+    padding: 40px;
+
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+div.atf-row
+{
+    display: flex;
+
+    padding: 10px;
+
+    border-bottom: 1px solid steelblue;
+
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div.atf-row:last-child
+{
+    border: 0;
+}
+
+p
+{
+    padding: 10px;
+}
